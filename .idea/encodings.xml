@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/study_python_2022/day4/file/1.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_python_2022/day4/file/2.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_python_2022/day4/file/3.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/study_python_2022/day4/占硬盘.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/study_python_2022/day4/编码.py" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
