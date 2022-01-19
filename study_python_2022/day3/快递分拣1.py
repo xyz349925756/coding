@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*-coding:utf-8-*-
-# Time    :2022/1/15  20:20
+# Time    :2022/1/18  21:13
 # Author  :xyz34
 # Email   :xyz349925756@hotmail.com
-# File    :快递分拣.py
+# File    :快递分拣1.py
 # Project :coding
 
 pos_list = [
@@ -461,31 +461,29 @@ pos_list = [
 	['杨*康', '北京市丰台区丰台科技园汉威广场12栋']
 ]
 
-dis1 = {}
-ls1 = []
-ls2 = ['宁夏','新疆','西藏','广西','香港','澳门','台湾']
-#排除特殊的ls2，提取key
-for i in pos_list:
-	dis1[i[1][:3]] = []
-	ls1 = list(dis1)
-	for j in range(len(ls2)):
-		for a in range(len(ls1)):
-			if ls2[j] in ls1[a]:
-				dis1.pop(ls1[a])
-				dis1[ls2[j]] = []
+special_list = {
+    "内蒙":"内蒙古自治区",
+    "广西":"广西壮族自治行政区",
+    "西藏":"西藏自治区",
+    "宁夏":"宁夏回族自治区",
+    "澳门":"澳门特别行政区",
+    "新疆":"新疆维吾尔自治区",
+    "香港":"香港特别行政区",
+    "黑龙":"黑龙江省"
+}
 
-#循环添加value到dis1
-for j in range(len(ls1)):
-	for b in range(len(pos_list)):
-		if ls1[j] in pos_list[b][1]:
-			dis1[ls1[j]].append(pos_list[b])
-print(dis1)
+result = {}
+for item in pos_list:
+    pro = item[1][:2]
+    special = special_list.get(pro)
+    if special:
+        pro = special
 
-#统计各key对应value的总数
-for k,v in dis1.items():
-	print(f'到 {k} 的快递有：{len(v)} 件')
+    if pro in result:
+        result[pro].append(item)
+    else:
+        result[pro] = [item]
+print(result)
 
-
-
-
-
+for k,v in result.items():
+    print(k,len(v))
