@@ -8,5 +8,5 @@
 """
 for a in range(1, 10):
     for b in range(1, a + 1):
-        print("\033[0;31m %d * %d = %2d \033[0m" % (a, b, a * b), end=" ")
+        print("\033[43;36m %d * %d = %2d \033[0m" % (a, b, a * b), end=" ")
     print(" ")
