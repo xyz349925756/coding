@@ -144,22 +144,35 @@
 #斐波那契数列
 # 1 1 2 3 5 8 13 21 34....
 
-def f_B():
-    a = 1
-    b = 1
-    count = 0
-    l=[1,1]
-    while  count < 20:
-        tmp = a
-        a = b
-        b = tmp + b
-        count += 1
-        yield b
-    #     l.append(b)
-    # yield l
+# def f_B():
+#     a = 1
+#     b = 1
+#     count = 0
+#     l=[1,1]
+#     while  count < 20:
+#         tmp = a
+#         a = b
+#         b = tmp + b
+#         count += 1
+#         yield b
+#     #     l.append(b)
+#     # yield l
+#
+# f = f_B()
+# print(next(f))
+# print(next(f))
+# print(next(f))
+# print(next(f))
 
-f = f_B()
-print(next(f))
-print(next(f))
-print(next(f))
-print(next(f))
+# def g_test():
+#     while True:
+#         n = yield
+#         print("返回函数内",n)
+# g = g_test()
+# g.__next__()  # 第一次不能为空，这里使用next给他跳过
+#
+# for i in range(10):
+#     g.send(i)   # 把这个值发送给函数里面的n
+
+
+
