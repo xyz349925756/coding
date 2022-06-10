@@ -1,0 +1,42 @@
+2022-06-06 16:00:26,266- MainThread:1956 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:00:26,297- MainThread:1956 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:01:36,400- MainThread:9012 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:01:36,400- MainThread:9012 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:02:16,247- MainThread:8568 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:02:16,247- MainThread:8568 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:04:01,992- MainThread:8788 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:04:01,992- MainThread:8788 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:04:12,691- MainThread:3108 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:04:12,691- MainThread:3108 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:04:30,629- MainThread:5688 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:04:30,629- MainThread:5688 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:05:12,266- MainThread:4076 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:05:12,266- MainThread:4076 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 16:07:38,568- MainThread:4028 - 日志名字:交易 - 日志模块.py:220 -ERROR - Eroor!
+2022-06-06 16:07:38,568- MainThread:4028 - 日志名字:None - 日志模块.py:223 -WARNING - warning
+2022-06-06 17:08:31,812- MainThread:8156 - 日志名字:交易 - 日志模块.py:223 -ERROR - Eroor!
+2022-06-06 17:08:31,812- MainThread:8156 - 日志名字:None - 日志模块.py:226 -WARNING - warning
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:交易 - 日志模块.py:223 -ERROR - Eroor!
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:交易 - 日志模块.py:224 -INFO - 3 info
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:交易 - 日志模块.py:225 -ERROR - 3 error
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:交易 - 日志模块.py:226 -WARNING - 3 warning
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:交易 - 日志模块.py:227 -CRITICAL - 3333
+2022-06-06 17:11:42,461- MainThread:6908 - 日志名字:None - 日志模块.py:230 -WARNING - warning
+ERROR  2022-06-06 17:17:26,246 15s 日志模块.py:224 8s Eroor!
+INFO  2022-06-06 17:17:26,246 15s 日志模块.py:225 8s 3 info
+ERROR  2022-06-06 17:17:26,246 15s 日志模块.py:226 8s 3 error
+WARNING  2022-06-06 17:17:26,246 15s 日志模块.py:227 8s 3 warning
+CRITICAL  2022-06-06 17:17:26,246 15s 日志模块.py:228 8s 3333
+WARNING  2022-06-06 17:17:26,246 15s 日志模块.py:231 8s warning
+ERROR  2022-06-06 17:35:46,576  日志模块.py :224 8s Eroor!
+INFO  2022-06-06 17:35:46,576  日志模块.py :225 8s 3 info
+ERROR  2022-06-06 17:35:46,591  日志模块.py :226 8s 3 error
+WARNING  2022-06-06 17:35:46,591  日志模块.py :227 8s 3 warning
+CRITICAL  2022-06-06 17:35:46,591  日志模块.py :228 8s 3333
+WARNING  2022-06-06 17:35:46,591  日志模块.py :231 8s warning
+ERROR  2022-06-10 22:32:10,123  日志模块.py :224 8s Eroor!
+INFO  2022-06-10 22:32:12,219  日志模块.py :225 8s 3 info
+ERROR  2022-06-10 22:32:12,219  日志模块.py :226 8s 3 error
+WARNING  2022-06-10 22:32:12,219  日志模块.py :227 8s 3 warning
+CRITICAL  2022-06-10 22:32:12,219  日志模块.py :228 8s 3333
+WARNING  2022-06-10 22:32:12,234  日志模块.py :231 8s warning

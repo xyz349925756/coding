@@ -8,35 +8,59 @@
 
 # 登录login、查询query、取钱withdraw、存钱deposit、转账transfer、帮助help、退出exit
 
-
-
 def login():
-    """登录"""
-    print("登录")
-
+    name = input("请输入用户名：")
+    passwd = input("请输入%s 的密码:"%name)
+    with open('db.txt','a',encoding='utf-8') as f:
+        date = name + '\t' + passwd + '\t' + '\n'
+        f.write(date)
 
 def query():
-    """查询"""
     print("查询")
+    with open('db.txt','r',encoding='utf-8') as f:
+        date = f.readlines()
+        for i in date:
+            print(i)
 
 def withdraw():
-    """取钱"""
-
+    print("取钱")
 
 def deposit():
-    """存钱"""
+    print("存钱")
 
 def transfer():
-    """转账"""
+    print("转账")
 
-def help():
-    """帮助"""
+def helps():
+    print("请输入对应的数字序号：")
 
-def exit():
-    """退出"""
+dicts = {
+    '0':['退出',None],
+    '1':['登录',login],
+    '2':['查询',query],
+    '3':['取钱',withdraw],
+    '4':['存钱',deposit],
+    '5':['转帐',transfer],
+    '6':['帮助',helps]
+}
 
 
-def p():
-    print("xxx")
 
-print(query)
+while True:
+    for i in dicts:
+        # print(''.center(50,"-"))
+        print(i,dicts[i][0])
+        # print(''.center(9, "-"))
+
+    choies = input("请输入选择：").strip()
+    if not choies.isdigit():
+        helps()
+        continue
+    elif choies == '0':
+        break
+    elif choies in dicts:
+        dicts[choies][1]()
+    else:
+        print('输入有误')
+
+
