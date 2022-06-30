@@ -37,7 +37,7 @@ def read():
     with open('passwd.txt','r',encoding='utf-8') as f1:
         content = f1.readlines()
         for i in  content:
-            print(i)
+            print(i,type(i))
 # f1 = open('password_books','r')
 # content = f1.readlines()
 # for i in content:
@@ -47,4 +47,3 @@ def read():
 if __name__ == '__main__':
     write()
     read()
-
